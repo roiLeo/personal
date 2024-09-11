@@ -8,7 +8,7 @@
         size="md"
         label="View on GitHub"
         icon="i-simple-icons-github"
-        to="https://github.com/roiLeo/open-preview"
+        to="https://github.com/roiLeo"
         target="_blank"
       />
     </UContainer>
