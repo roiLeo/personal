@@ -1,7 +1,7 @@
 <template>
-  <div class="my-10 sm:my-14">
-    <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
-      Articles
+  <section class="my-10 sm:my-14">
+    <h2 class="mb-5 font-medium text-neutral-800 dark:text-neutral-200">
+      Latest Articles
     </h2>
 
     <!-- List -->
@@ -9,30 +9,38 @@
       <li
         v-for="article in articles"
         :key="article.title"
+        class="group hover:ring-0"
       >
         <NuxtLink to="#">
-          <h5 class="font-medium text-sm text-gray-800 dark:text-neutral-200 hover:underline hover:underline-offset-4">
+          <h5 class="font-medium text-sm text-neutral-800 dark:text-neutral-200 hover:underline hover:underline-offset-4">
             {{ article.title }}
           </h5>
         </NuxtLink>
-        <time class="mb-2 text-xs text-gray-600 dark:text-neutral-600">
+        <time class="mb-2 text-xs text-neutral-600 dark:text-neutral-600">
           {{ article.date }}
         </time>
-        <p class="mt-1 text-sm text-gray-500 dark:text-neutral-500">
+        <p class="my-1 text-sm text-neutral-500 dark:text-neutral-500">
           {{ article.summary }}
         </p>
-        <p class="mt-1">
-          <a
-            class="text-sm text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400"
-            href="#"
-          >
-            Continue reading
-          </a>
-        </p>
+
+        <UButton
+          size="xs"
+          variant="link"
+          class="px-0 gap-0"
+          label="Continue reading"
+          to="#"
+        >
+          <template #trailing>
+            <UIcon
+              name="i-lucide-arrow-right"
+              class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+            />
+          </template>
+        </UButton>
       </li>
     </ul>
     <!-- End List -->
-  </div>
+  </section>
 </template>
 
 <script lang="ts" setup>

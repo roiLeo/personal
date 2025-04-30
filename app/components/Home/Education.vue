@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-10 sm:mt-14">
-    <h2 class="mb-3 font-medium text-gray-800 dark:text-neutral-200">
+  <section class="mt-10 sm:mt-14">
+    <h2 class="mb-3 font-medium text-neutral-800 dark:text-neutral-200">
       Education
     </h2>
 
@@ -9,28 +9,28 @@
       <div
         v-for="university in education"
         :key="university.name"
-        class="p-4 border border-gray-200 rounded-lg dark:border-neutral-700"
+        class="p-4 border border-neutral-200 rounded-lg dark:border-neutral-700"
       >
         <img
           class="shrink-0 size-10 mb-3"
           :src="university.logo"
         >
 
-        <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+        <h3 class="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
           {{ university.from }} - {{ university.to }}
         </h3>
 
-        <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+        <p class="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
           {{ university.degree }}
         </p>
 
-        <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+        <p class="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
           {{ university.name }}
         </p>
       </div>
     </div>
     <!-- End Grid -->
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

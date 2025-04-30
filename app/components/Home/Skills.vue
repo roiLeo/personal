@@ -1,6 +1,6 @@
 <template>
-  <div class="my-10 sm:my-14">
-    <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
+  <section class="my-10 sm:my-14">
+    <h2 class="mb-5 font-medium text-neutral-800 dark:text-neutral-200">
       Skills
     </h2>
 
@@ -12,7 +12,7 @@
         class="flex flex-col sm:flex-row gap-1"
       >
         <dt class="min-w-40">
-          <span class="block text-sm text-gray-500 dark:text-neutral-500">
+          <span class="block text-sm text-neutral-500 dark:text-neutral-500">
             {{ skill.title }}
           </span>
         </dt>
@@ -21,7 +21,7 @@
             <li
               v-for="content in skill.content"
               :key="content.label"
-              class="me-1 [&:not(:last-child)]:after:content-[','] inline-flex items-center text-sm text-gray-800 dark:text-neutral-200"
+              class="me-1 [&:not(:last-child)]:after:content-[','] inline-flex items-center text-sm text-neutral-800 dark:text-neutral-200"
             >
               <UIcon
                 v-if="content.icon"
@@ -35,7 +35,7 @@
       </dl>
     </div>
     <!-- End List -->
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

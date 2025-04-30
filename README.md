@@ -1,75 +1,68 @@
-# Nuxt 3 Minimal Starter
+# 🚀 Personal Portfolio
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern personal portfolio site built with Nuxt, NuxtUI, and Tailwind. This project showcases professional experiences, skills, and projects in a clean, responsive design.
 
-## Setup
+## ✨ Features
 
-Make sure to install the dependencies:
+- **Responsive Design**: Seamlessly adapts to any device or screen size
+- **Dark/Light Mode**: Toggle between dark and light themes
+- **SEO Optimized**: Structured for search engine visibility
 
-```bash
-# npm
-npm install
+## 🛠️ Tech Stack
 
-# pnpm
-pnpm install
+- **Frontend**: [Nuxt](https://nuxt.com/)
+- **CSS Framework**: [NuxtUI](https://ui.nuxt.com/) + [Tailwind](https://tailwindcss.com/)
+- **Icons**: [Iconify](https://iconify.design/)
+- **Hosting**: [Netlify](https://www.netlify.com/)
 
-# yarn
-yarn install
+## 📋 Prerequisites
 
-# bun
-bun install
-```
+- Node.js (>= 22.x)
+- pnpm
 
-## Development Server
+## 🚀 Installation
 
-Start the development server on `http://localhost:3000`:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/roiLeo/personal.git
+   cd personal
+   ```
 
-```bash
-# npm
-npm run dev
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
 
-# pnpm
-pnpm run dev
+3. Run the development server:
+   ```bash
+   pnpm dev
+   ```
 
-# yarn
-yarn dev
+4. Open your browser and navigate to `http://localhost:3000`
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
+## 📦 Build for Production
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+pnpm build
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The built files will be in the `dist` directory, ready for deployment.
+
+## 🚢 Deployment
+
+This project is set up for easy deployment to Netlify. Simply connect your GitHub repository to Netlify and configure the build settings:
+
+- **Build command**: `pnpm build`
+- **Publish directory**: `dist`
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/roiLeo/personal/issues).
+
+## 👨‍💻 Author
+
+- GitHub: [@roiLeo](https://github.com/roiLeo)
+
+---
+
+Made with ❤️ by Leo

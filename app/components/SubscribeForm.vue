@@ -1,12 +1,12 @@
 <template>
   <div class="my-10 sm:my-14">
-    <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
+    <h2 class="mb-5 font-medium text-neutral-800 dark:text-neutral-200">
       Subscribe
     </h2>
 
     <!-- Input -->
     <form>
-      <div class="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-gray-200 rounded-lg dark:border-neutral-700">
+      <div class="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-neutral-200 rounded-lg dark:border-neutral-700">
         <div class="relative w-full">
           <label
             for="hero-input"
@@ -14,7 +14,7 @@
           >Subscribe</label>
           <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
             <svg
-              class="shrink-0 size-4 text-gray-400 dark:text-neutral-600"
+              class="shrink-0 size-4 text-neutral-400 dark:text-neutral-600"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -44,7 +44,7 @@
           >
         </div>
         <a
-          class="w-full sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border border-transparent bg-gray-800 text-white hover:bg-gray-900 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:bg-white dark:text-neutral-800 dark:hover:bg-neutral-200"
+          class="w-full sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border border-transparent bg-neutral-800 text-white hover:bg-neutral-900 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:bg-white dark:text-neutral-800 dark:hover:bg-neutral-200"
           href="#"
         >
           Join
@@ -65,7 +65,7 @@
           </svg>
         </a>
       </div>
-      <p class="mt-2 text-xs text-gray-500 dark:text-neutral-500">
+      <p class="mt-2 text-xs text-neutral-500 dark:text-neutral-500">
         No spam, unsubscribe at any time.
       </p>
     </form>

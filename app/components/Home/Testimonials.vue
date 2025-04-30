@@ -1,15 +1,15 @@
 <template>
-  <div class="mt-10 sm:mt-14">
-    <h2 class="mb-3 font-medium text-gray-800 dark:text-neutral-200">
+  <section class="mt-10 sm:mt-14">
+    <h2 class="mb-3 font-medium text-neutral-800 dark:text-neutral-200">
       Testimonials
     </h2>
 
     <!-- Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-gray-200 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-neutral-200 divide-y sm:divide-y-0 sm:divide-x divide-neutral-200 dark:border-neutral-700 dark:divide-neutral-700">
       <div class="sm:-ms-4 py-6 sm:px-4">
         <!-- Review -->
         <blockquote>
-          <span class="text-sm text-gray-800 dark:text-neutral-200">I'm absolutely floored by the level of care and attention to detail Eliana has put into this project and for one can guarantee that we will be a return customer.</span>
+          <span class="text-sm text-neutral-800 dark:text-neutral-200">I'm absolutely floored by the level of care and attention to detail Eliana has put into this project and for one can guarantee that we will be a return customer.</span>
 
           <footer class="mt-3">
             <div class="flex items-center gap-x-2">
@@ -19,7 +19,7 @@
                 alt="Avatar"
               >
               <div class="grow">
-                <div class="text-xs text-gray-500 dark:text-neutral-500">
+                <div class="text-xs text-neutral-500 dark:text-neutral-500">
                   Josh Grazioso
                 </div>
               </div>
@@ -32,7 +32,7 @@
       <div class="py-6 sm:px-4">
         <!-- Review -->
         <blockquote>
-          <span class="text-sm text-gray-800 dark:text-neutral-200">To say that hiring Eliana has been life-changing is an understatement. My business has tripled and I got my life back.</span>
+          <span class="text-sm text-neutral-800 dark:text-neutral-200">To say that hiring Eliana has been life-changing is an understatement. My business has tripled and I got my life back.</span>
 
           <footer class="mt-3">
             <div class="flex items-center gap-x-2">
@@ -42,7 +42,7 @@
                 alt="Avatar"
               >
               <div class="grow">
-                <div class="text-xs text-gray-500 dark:text-neutral-500">
+                <div class="text-xs text-neutral-500 dark:text-neutral-500">
                   Nicole Grazioso
                 </div>
               </div>
@@ -53,5 +53,5 @@
       </div>
     </div>
     <!-- End Grid -->
-  </div>
+  </section>
 </template>

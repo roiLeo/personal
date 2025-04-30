@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-10 sm:mt-14">
-    <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
+  <section class="mt-10 sm:mt-14">
+    <h2 class="mb-5 font-medium text-neutral-800 dark:text-neutral-200">
       Projects
     </h2>
 
@@ -11,12 +11,12 @@
         href="#"
       >
         <img
-          class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+          class="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
           src="https://images.unsplash.com/photo-1656618724305-a4257e46e847?q=80&amp;w=320&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Project"
         >
         <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
             <svg
               class="shrink-0 size-3"
               xmlns="http://www.w3.org/2000/svg"
@@ -46,12 +46,12 @@
         href="#"
       >
         <img
-          class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+          class="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
           src="https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&amp;w=320&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Project"
         >
         <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
             <svg
               class="shrink-0 size-3"
               xmlns="http://www.w3.org/2000/svg"
@@ -81,12 +81,12 @@
         href="#"
       >
         <img
-          class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+          class="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
           src="https://images.unsplash.com/photo-1516131206008-dd041a9764fd?q=80&amp;w=320&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Project"
         >
         <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
             <svg
               class="shrink-0 size-3"
               xmlns="http://www.w3.org/2000/svg"
@@ -116,12 +116,12 @@
         href="#"
       >
         <img
-          class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+          class="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
           src="https://images.unsplash.com/photo-1707760696486-2a2cd7e0b6a6?q=80&amp;w=320&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Project"
         >
         <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
             <svg
               class="shrink-0 size-3"
               xmlns="http://www.w3.org/2000/svg"
@@ -151,12 +151,12 @@
         href="#"
       >
         <img
-          class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+          class="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
           src="https://images.unsplash.com/photo-1585159812596-fac104f2f069?q=80&amp;w=320&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Project"
         >
         <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
             <svg
               class="shrink-0 size-3"
               xmlns="http://www.w3.org/2000/svg"
@@ -186,12 +186,12 @@
         href="#"
       >
         <img
-          class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+          class="w-full size-40 object-cover bg-neutral-100 rounded-lg dark:bg-neutral-800"
           src="https://images.unsplash.com/photo-1654131300276-db70adf4f85d?q=80&amp;w=320&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Project"
         >
         <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+          <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-neutral-200 text-neutral-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
             <svg
               class="shrink-0 size-3"
               xmlns="http://www.w3.org/2000/svg"
@@ -217,5 +217,5 @@
       </a>
     </div>
     <!-- End Image Grid -->
-  </div>
+  </section>
 </template>

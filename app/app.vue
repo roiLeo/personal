@@ -1,36 +1,38 @@
 <template>
-  <div class="px-2 sm:px-6 lg:px-8 max-w-2xl mx-auto relative gap-6 flex flex-col min-h-screen">
+  <UApp>
     <DefaultNavbar />
 
-    <UContainer class="w-full">
-      <!-- PROFILE AVATAR -->
-      <HomeProfile />
+    <div class="px-2 sm:px-6 lg:px-8 pt-10 md:pt-16 max-w-2xl mx-auto relative gap-6 flex flex-col min-h-screen">
+      <UContainer class="w-full">
+        <!-- PROFILE AVATAR -->
+        <HomeProfile />
 
-      <!-- ABOUT -->
-      <HomeAbout />
+        <!-- ABOUT -->
+        <HomeAbout />
 
-      <!-- PROJECTS -->
-      <HomeProjects />
+        <!-- PROJECTS -->
+        <HomeProjects />
 
-      <!-- TESTIMONIALS -->
-      <HomeTestimonials />
+        <!-- TESTIMONIALS -->
+        <HomeTestimonials />
 
-      <!-- SKILLS -->
-      <HomeSkills />
+        <!-- SKILLS -->
+        <HomeSkills />
 
-      <!-- WORK EXPERIENCE -->
-      <HomeExperience />
+        <!-- WORK EXPERIENCE -->
+        <HomeExperience />
 
-      <!-- EDUCATION -->
-      <HomeEducation />
+        <!-- EDUCATION -->
+        <HomeEducation />
 
-      <!-- ARTICLES -->
-      <HomeArticles />
+        <!-- ARTICLES -->
+        <HomeArticles />
 
-      <!-- SUBSCRIBE -->
-      <SubscribeForm />
-    </UContainer>
+        <!-- SUBSCRIBE -->
+        <SubscribeForm />
+      </UContainer>
 
-    <DefaultFooter />
-  </div>
+      <DefaultFooter />
+    </div>
+  </UApp>
 </template>

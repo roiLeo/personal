@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-10 sm:mt-14">
-    <h2 class="mb-5 font-medium text-gray-800 dark:text-neutral-200">
+  <section class="mt-10 sm:mt-14">
+    <h2 class="mb-5 font-medium text-neutral-800 dark:text-neutral-200">
       Work experience
     </h2>
 
@@ -9,10 +9,10 @@
       <!-- Item -->
       <div class="group relative flex gap-x-5">
         <!-- Icon -->
-        <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+        <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
           <div class="relative z-10 size-6 flex justify-center items-center">
             <svg
-              class="shrink-0 size-6 text-gray-600 dark:text-neutral-400"
+              class="shrink-0 size-6 text-neutral-600 dark:text-neutral-400"
               width="32"
               height="32"
               viewBox="0 0 32 32"
@@ -36,32 +36,32 @@
 
         <!-- Right Content -->
         <div class="grow pb-8 group-last:pb-0">
-          <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+          <h3 class="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
             2023 - Present
           </h3>
 
-          <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+          <p class="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
             Web Designer &amp; Web Developer
           </p>
 
-          <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+          <p class="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
             The company has high expectations and using OKRs there is a mutual understanding of expectations and performance.
           </p>
 
           <ul class="list-disc ms-6 mt-3 space-y-1.5">
-            <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+            <li class="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
               Designed template UIs and design systems in Figma.
             </li>
-            <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+            <li class="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
               Converted UIs into responsive HTML and CSS with a mobile-first approach.
             </li>
-            <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+            <li class="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
               Created custom illustrations and item description banners.
             </li>
-            <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+            <li class="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
               Provided detailed documentation and customer support on GitHub.
             </li>
-            <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+            <li class="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
               Engaged with users to address setup inquiries, bug issues, and feedback.
             </li>
           </ul>
@@ -73,10 +73,10 @@
       <!-- Item -->
       <div class="group relative flex gap-x-5">
         <!-- Icon -->
-        <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+        <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
           <div class="relative z-10 size-6 flex justify-center items-center">
             <svg
-              class="shrink-0 size-6 text-gray-600 dark:text-neutral-400"
+              class="shrink-0 size-6 text-neutral-600 dark:text-neutral-400"
               width="32"
               height="32"
               viewBox="0 0 32 32"
@@ -113,22 +113,22 @@
 
         <!-- Right Content -->
         <div class="grow pb-8 group-last:pb-0">
-          <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+          <h3 class="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
             2021 - 2023
           </h3>
 
-          <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+          <p class="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
             Senior Software Engineer at Mailchimp
           </p>
 
-          <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+          <p class="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
             This is an excellent company and they reward their employees. It's becoming a big company but it's still private, so the culture is as good as it gets at 1,000+ employees if you ask me. Managers are still adapting to the growth I think, but everyone has to. Great place to work.
           </p>
 
           <div class="mt-3">
             <!-- Card -->
             <a
-              class="block border border-gray-200 rounded-lg hover:shadow-sm focus:outline-none dark:border-neutral-700"
+              class="block border border-neutral-200 rounded-lg hover:shadow-sm focus:outline-none dark:border-neutral-700"
               href="#"
             >
               <div class="relative flex items-center overflow-hidden">
@@ -140,8 +140,8 @@
 
                 <div class="grow p-4 ms-32 sm:ms-48">
                   <div class="min-h-24 flex flex-col justify-center">
-                    <h3 class="font-semibold text-sm text-gray-800 dark:text-neutral-300">Studio by Mailchimp</h3>
-                    <p class="mt-1 text-sm text-gray-500 dark:text-neutral-500">Produce professional, reliable streams easily leveraging Mailchimp's innovative broadcast studio.</p>
+                    <h3 class="font-semibold text-sm text-neutral-800 dark:text-neutral-300">Studio by Mailchimp</h3>
+                    <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-500">Produce professional, reliable streams easily leveraging Mailchimp's innovative broadcast studio.</p>
                   </div>
                 </div>
               </div>
@@ -156,10 +156,10 @@
       <!-- Item -->
       <div class="group relative flex gap-x-5">
         <!-- Icon -->
-        <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+        <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
           <div class="relative z-10 size-6 flex justify-center items-center">
             <svg
-              class="shrink-0 size-6 text-gray-600 dark:text-neutral-400"
+              class="shrink-0 size-6 text-neutral-600 dark:text-neutral-400"
               width="32"
               height="32"
               viewBox="0 0 32 32"
@@ -197,15 +197,15 @@
 
         <!-- Right Content -->
         <div class="grow pb-8 group-last:pb-0">
-          <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+          <h3 class="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
             2011 - 2021
           </h3>
 
-          <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+          <p class="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
             Junior Software Engineer at Slack
           </p>
 
-          <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+          <p class="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
             Work in Slack is one of the beautiful experience I can do in my entire life. There are a lot of interesting thing to learn and manager respect your time and your personality.
           </p>
         </div>
@@ -216,10 +216,10 @@
       <!-- Item -->
       <div class="group relative flex gap-x-5">
         <!-- Icon -->
-        <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+        <div class="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-neutral-200 dark:after:bg-neutral-700">
           <div class="relative z-10 size-6 flex justify-center items-center">
             <svg
-              class="shrink-0 size-6 text-gray-800 dark:text-neutral-200"
+              class="shrink-0 size-6 text-neutral-800 dark:text-neutral-200"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -247,22 +247,22 @@
 
         <!-- Right Content -->
         <div class="grow pb-8 group-last:pb-0">
-          <h3 class="mb-1 text-xs text-gray-600 dark:text-neutral-400">
+          <h3 class="mb-1 text-xs text-neutral-600 dark:text-neutral-400">
             2010 - 2011
           </h3>
 
-          <p class="font-semibold text-sm text-gray-800 dark:text-neutral-200">
+          <p class="font-semibold text-sm text-neutral-800 dark:text-neutral-200">
             Freelance Graphic Designer
           </p>
 
           <ul class="list-disc ms-6 mt-3 space-y-1.5">
-            <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+            <li class="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
               Worked with a diverse range of clients, delivering tailored design solutions.
             </li>
-            <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+            <li class="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
               Developed and maintained strong client relationships through effective communication and project management.
             </li>
-            <li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
+            <li class="ps-1 text-sm text-neutral-600 dark:text-neutral-400">
               Utilized tools such as Notion for project tracking, Mailchimp for email marketing designs, Slack for team collaboration, and GitHub for version control and project sharing.
             </li>
           </ul>
@@ -272,5 +272,5 @@
       <!-- End Item -->
     </div>
     <!-- End Timeline -->
-  </div>
+  </section>
 </template>
